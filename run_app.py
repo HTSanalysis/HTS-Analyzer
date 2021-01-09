@@ -15,6 +15,7 @@ app.layout = html.Div([
     dcc.Store(id='final-time-val', storage_type='local'),
 ])
 
+server = app.server
 
 @app.callback(Output('page-content', 'children'), [Input('url', 'pathname')])
 def display_page(pathname):
