@@ -13,3 +13,4 @@ scipy==1.4.1
 dash-extensions==0.0.41
 psutil==5.6.7
 requests==2.23.0
+kaleido
